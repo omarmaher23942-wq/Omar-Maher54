@@ -15,8 +15,8 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app, origins=["*"], allow_headers=["Content-Type"])
 
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+TELEGRAM_BOT_TOKEN = os.environ.get("8206954354:AAGSTMwljzsBOUgvtpHhnQw0ie8ku8QVOls", "")
+TELEGRAM_CHAT_ID = os.environ.get("6227764526", "")
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
